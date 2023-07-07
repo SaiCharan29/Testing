@@ -1,0 +1,35 @@
+{
+    "key": "APIDP-Webhook",
+    "name": "Webhook",
+    "description": "Webhooks for Confluence Cloud",
+    "vendor": {
+        "name": "Versa-API-DP",
+        "url": "https://versa-networks.com/"
+    },
+    "baseUrl": "https://bm1-us.apidp.versa-test.net/v1/atlassian",
+    "authentication": {
+        "type": "jwt"
+    },
+    "lifecycle": {
+        "installed": "/webhook"
+    },
+    "scopes": [
+        "READ"
+    ],
+    "modules": {
+        "webhooks": [
+        {
+            "event": "attachment_created",
+            "url": "/webhook"
+        },
+        {
+            "event": "attachment_restored",
+            "url": "/webhook"
+        },
+        {
+            "event": "attachment_updated",
+            "url": "/webhook"
+        }
+        ]
+    }
+}
