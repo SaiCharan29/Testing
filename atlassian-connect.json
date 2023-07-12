@@ -30,10 +30,10 @@
             "event": "page_updated",
             "url": "/webhook"
         },
-	    {
-	        "event": "comment_created",
-	        "url": "/webhook"
-	    }
+	{
+	    "event": "comment_created",
+	    "url": "/webhook"
+	}
         ]
     }
 }
