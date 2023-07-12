@@ -33,7 +33,15 @@
 	{
 	    "event": "comment_created",
 	    "url": "/webhook"
-	}
+	},
+	{
+            "event": "attachment_created",
+            "url": "/webhook"
+        },
+        {
+            "event": "attachment_updated",
+            "url": "/webhook"
+        }
         ]
     }
 }
