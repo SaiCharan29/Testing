@@ -19,17 +19,21 @@
     "modules": {
         "webhooks": [
         {
-            "event": "attachment_created",
+            "event": "page_created",
             "url": "/webhook"
         },
         {
-            "event": "attachment_restored",
+            "event": "comment_created",
             "url": "/webhook"
         },
         {
-            "event": "attachment_updated",
+            "event": "page_updated",
             "url": "/webhook"
-        }
+        },
+	    {
+	        "event": "comment_created",
+	        "url": "/webhook"
+	    }
         ]
     }
 }
