@@ -19,15 +19,7 @@
     "modules": {
         "webhooks": [
         {
-            "event": "page_created",
-            "url": "/webhook"
-        },
-        {
             "event": "comment_created",
-            "url": "/webhook"
-        },
-        {
-            "event": "page_updated",
             "url": "/webhook"
         },
 	{
