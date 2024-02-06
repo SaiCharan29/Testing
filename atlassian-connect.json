@@ -41,6 +41,10 @@
 	{
 	    "event": "attachment_removed",
 	    "url": "/webhook"
+	},
+	{
+	    "event": "attachment_trashed",
+	    "url": "/webhook"
 	}
         ]
     }
