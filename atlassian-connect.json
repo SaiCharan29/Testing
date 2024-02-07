@@ -32,7 +32,7 @@
 	},
 	{
             "event": "attachment_created",
-            "url": "/webhook/attachment_created"
+            "url": "/webhook?event_type=attachment_created"
         },
         {
             "event": "attachment_updated",
