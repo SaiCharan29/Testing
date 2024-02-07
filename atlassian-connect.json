@@ -11,7 +11,7 @@
         "type": "jwt"
     },
     "lifecycle": {
-        "installed": "/webhook"
+        "installed": "/webhook?event_type=app_installed"
     },
     "scopes": [
         "READ"
