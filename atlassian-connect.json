@@ -20,15 +20,15 @@
         "webhooks": [
         {
             "event": "comment_created",
-            "url": "/webhook"
+            "url": "/webhook?event_type=comment_created"
         },
 	{
 	    "event": "comment_updated",
-	    "url": "/webhook"
+	    "url": "/webhook?event_type=comment_updated"
 	},
 	{
 	    "event": "comment_removed",
-	    "url": "/webhook"
+	    "url": "/webhook?event_type=comment_removed"
 	},
 	{
             "event": "attachment_created",
@@ -36,15 +36,15 @@
         },
         {
             "event": "attachment_updated",
-            "url": "/webhook"
+            "url": "/webhook?event_type=attachment_updated"
         },
 	{
 	    "event": "attachment_removed",
-	    "url": "/webhook"
+	    "url": "/webhook?event_type=attachment_removed"
 	},
 	{
 	    "event": "attachment_trashed",
-	    "url": "/webhook"
+	    "url": "/webhook?event_type=attachment_trashed"
 	}
         ]
     }
