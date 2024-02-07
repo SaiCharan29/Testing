@@ -6,7 +6,7 @@
         "name": "Versa-API-DP",
         "url": "https://versa-networks.com/"
     },
-    "baseUrl": "https://bm1-us.apidp.versa-test.net/v1/confluence",
+    "baseUrl": "https://dev-bm1.apidp.versa-test.net/v1/confluence",
     "authentication": {
         "type": "jwt"
     },
