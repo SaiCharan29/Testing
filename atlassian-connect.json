@@ -45,6 +45,22 @@
 	{
 	    "event": "attachment_trashed",
 	    "url": "/webhook?event_type=attachment_trashed"
+	},
+	{
+	    "event": "blog_removed",
+	    "url": "/webhook?event_type=blog_removed"
+	},
+	{
+	    "event": "blog_trashed",
+	    "url": "/webhook?event_type=blog_trashed"
+	},
+	{
+	    "event": "page_removed",
+	    "url": "/webhook?event_type=page_removed"
+	},
+	{
+	    "event": "page_trashed",
+	    "url": "/webhook?event_type=page_trashed"
 	}
         ]
     }
