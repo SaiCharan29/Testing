@@ -43,6 +43,10 @@
 	    "url": "/webhook?event_type=attachment_removed"
 	},
 	{
+	    "event": "attachment_restored",
+	    "url": "/webhook?event_type=attachment_restored"
+	},
+	{
 	    "event": "attachment_trashed",
 	    "url": "/webhook?event_type=attachment_trashed"
 	},
@@ -61,6 +65,10 @@
 	{
 	    "event": "page_trashed",
 	    "url": "/webhook?event_type=page_trashed"
+	},
+	{
+	    "event": "space_removed",
+	    "url": "/webhook?event_type=space_removed"
 	}
         ]
     }
