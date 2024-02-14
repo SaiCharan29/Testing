@@ -6,7 +6,7 @@
         "name": "Versa Networks",
         "url": "https://versa-networks.com/"
     },
-    "baseUrl": "http://tinyurl.com/atlassian-confluence-connector",
+    "baseUrl": "https://tinyurl.com/atlassian-confluence-connector",
     "authentication": {
         "type": "jwt"
     },
