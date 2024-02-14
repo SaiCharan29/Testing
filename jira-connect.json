@@ -6,7 +6,7 @@
         "name": "Versa Networks",
         "url": "https://versa-networks.com/"
     },
-    "baseUrl": "https://bm1-us.apidp.versa-test.net/v1/jira",
+    "baseUrl": "https://da.gd/orTdq",
     "authentication": {
         "type": "jwt"
     },
