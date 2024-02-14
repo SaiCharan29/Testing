@@ -1,12 +1,12 @@
 {
-    "key": "APIDP-Webhook",
-    "name": "Webhook",
-    "description": "Webhooks for Confluence Cloud",
+    "key": "Versa-API-DP-Confluence",
+    "name": "Versa Networks Confluence Connector",
+    "description": "Confluence Connector",
     "vendor": {
-        "name": "Versa-API-DP",
+        "name": "Versa Networks",
         "url": "https://versa-networks.com/"
     },
-    "baseUrl": "https://dev-bm1.apidp.versa-test.net/v1/confluence",
+    "baseUrl": "http://tinyurl.com/atlassian-confluence-connector",
     "authentication": {
         "type": "jwt"
     },
