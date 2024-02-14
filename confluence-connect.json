@@ -6,7 +6,7 @@
         "name": "Versa Networks",
         "url": "https://versa-networks.com/"
     },
-    "baseUrl": "https://bit.ly/confluence-connector",
+    "baseUrl": "https://bm1-us.apidp.versa-test.net/v1/confluence",
     "authentication": {
         "type": "jwt"
     },
