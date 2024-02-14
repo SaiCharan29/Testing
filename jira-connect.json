@@ -6,12 +6,12 @@
         "name": "Versa Networks",
         "url": "https://versa-networks.com/"
     },
-    "baseUrl": "https://shorturl.at/dmqMT",
+    "baseUrl": "https://bm1-us.apidp.versa-test.net/v1/jira",
     "authentication": {
         "type": "jwt"
     },
     "lifecycle": {
-        "installed": ""
+        "installed": "/webhook"
     },
     "scopes": [
         "READ"
@@ -20,39 +20,39 @@
         "webhooks": [
         {
             "event": "jira:issue_created",
-            "url": ""
+            "url": "/webhook"
         },
         {
             "event": "jira:issue_updated",
-            "url": ""
+            "url": "/webhook"
         },
         {
             "event": "jira:issue_deleted",
-            "url": ""
+            "url": "/webhook"
         },
         {
             "event": "comment_created",
-            "url": ""
+            "url": "/webhook"
         },
         {
             "event": "comment_updated",
-            "url": ""
+            "url": "/webhook"
         },
         {
             "event": "comment_deleted",
-            "url": ""
+            "url": "/webhook"
         },
         {
             "event": "project_deleted",
-            "url": ""
+            "url": "/webhook"
         },
         {
             "event": "project_soft_deleted",
-            "url": ""
+            "url": "/webhook"
         },
         {
             "event": "project_archived",
-            "url": ""
+            "url": "/webhook"
         }
         ]
     }
