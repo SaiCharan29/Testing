@@ -51,6 +51,18 @@
             "url": "/webhook?event_type=attachment_trashed"
         },
         {
+            "event": "blog_created",
+            "url": "/webhook?event_type=blog_created"
+        },
+        {
+            "event": "blog_restored",
+            "url": "/webhook?event_type=blog_restored"
+        },
+        {
+            "event": "blog_updated",
+            "url": "/webhook?event_type=blog_updated"
+        },
+        {
             "event": "blog_removed",
             "url": "/webhook?event_type=blog_removed"
         },
@@ -59,12 +71,28 @@
             "url": "/webhook?event_type=blog_trashed"
         },
         {
+            "event": "page_created",
+            "url": "/webhook?event_type=page_created"
+        },
+        {
+            "event": "page_restored",
+            "url": "/webhook?event_type=page_restored"
+        },
+        {
+            "event": "page_updated",
+            "url": "/webhook?event_type=page_updated"
+        },
+        {
             "event": "page_removed",
             "url": "/webhook?event_type=page_removed"
         },
         {
             "event": "page_trashed",
             "url": "/webhook?event_type=page_trashed"
+        },
+        {
+            "event": "space_created",
+            "url": "/webhook?event_type=space_created"
         },
         {
             "event": "space_removed",
